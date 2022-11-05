@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 .conteudo{
- max-width:500px;
+ max-width:550px;
   text-align: justify;
   border: 1px solid red;
   padding: 15px;
@@ -11,10 +11,18 @@
 }
 .menu{
   display: inline;
+  padding: 7px;
+
+
+}
+
+.rs{
+  display: inline;
   padding: 10px;
 
 }
-a{
+
+.linkMenu{
   text-decoration: none;
   background-color: rgb(1, 44, 87);
   padding: 10px;
@@ -22,7 +30,7 @@ a{
   font-weight: bold;
 }
 
-a:hover{
+.linkMenu:hover{
   background-color: cadetblue;
 }
 .img{
