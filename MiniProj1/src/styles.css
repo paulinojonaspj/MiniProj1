@@ -2,10 +2,13 @@
 .conteudo{
  max-width:550px;
   text-align: justify;
-  border: 1px solid red;
+  border: 1px dotted rgb(81, 6, 167);
   padding: 15px;
+  height: 400px;
 }
-
+.active-link{
+  background-color: red;
+}
 *{
   font-family: 'Courier New', Courier, monospace;
 }
